@@ -1,0 +1,114 @@
+/* Sideabar*/
+.sidebar {
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    height: 100%;
+  position: fixed;
+  min-width: 180px;
+  /* z-index: 1; */
+  top: 0;
+  left: 0;
+  /* background-color: var(--sbbgColor); */
+  overflow-x: hidden;
+  }
+
+.icon-f {
+    width: 45px;
+    height: auto;
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #6c749d;
+}
+
+li {
+    list-style: none;
+    padding: 8px 0px 8px 10px;
+    border-radius: 10px;
+    transition: all .5s ease;
+    line-height: 1;
+    outline: none;
+
+}
+
+li:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* Search bar */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+body {
+    /* background-color: white; */
+    background-color: #ecf1f7;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid #0661f0;
+}
+
+.search .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+.search button {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 110px;
+}
+
+/* Table */
+
+table{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+table td{
+    text-align: center;
+    vertical-align: middle;
+}
+.product-img{
+    /* border: 1px solid #4e4d51; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+/* 
+ID_product char(10) primary key,
+    name_product varchar(50),
+    price int,
+    image varchar(100),
+    ID_type char(10), */
